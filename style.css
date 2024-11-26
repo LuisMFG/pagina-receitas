@@ -1,22 +1,9 @@
+/* Geral */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 0;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.card {
-    margin-bottom: 20px;
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 10px;
 }
 
 /* Navbar */
@@ -26,7 +13,8 @@ body {
 }
 
 .custom-navbar .navbar-brand .logo {
-    height: 40px;
+    max-width: 150px;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
@@ -44,34 +32,34 @@ body {
     color: #FFD700 !important;
 }
 
-/* Cards */
-.card {
-    transition: transform 0.3s ease;
-    border: none;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+/* Navbar e logo */
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.card .rating {
-    color: #FFD700;
-    font-size: 1.2rem;
-}
-
-/* Botões */
-.btn-primary {
-    background-color: #0056b3;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #003d80;
+.logo {
+    max-width: 150px;
+    height: auto;
 }
 
 /* Carrossel */
+#carouselExample {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    max-width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
@@ -88,3 +76,43 @@ body {
     }
 }
 
+/* Cards */
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top, .card-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-img {
+    height: 250px;
+}
+
+.card .rating {
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003d80;
+}
