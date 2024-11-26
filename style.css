@@ -18,3 +18,73 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+
+/* Navbar */
+.custom-navbar {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-navbar .navbar-brand .logo {
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.custom-navbar .navbar-brand .logo:hover {
+    transform: scale(1.1);
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD700 !important;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card .rating {
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003d80;
+}
+
+/* Carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
