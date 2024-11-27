@@ -40,7 +40,7 @@
     <!-- Título da Categoria -->
     <header class="py-3 text-center bg-light">
         <h1>Receitas Doces</h1>
-        <p>Explore as melhores receitas tradicionais do Brasil!</p>
+        <p>Faça as receitas mais saborosas do momento.</p>
     </header>
 
     <!-- Cards de Receitas -->
@@ -48,31 +48,31 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/feijoada.jpg" class="card-img-top" alt="Feijoada">
+                    <img src="images/cookies.jpg" class="card-img-top" alt="Cookies">
                     <div class="card-body">
-                        <h5 class="card-title">Feijoada</h5>
-                        <p class="card-text">Um dos pratos mais tradicionais do Brasil.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFeijoada">Ver Receita</button>
+                        <h5 class="card-title">Cookies com Gotas de Chocolate</h5>
+                        <p class="card-text">Ótima opção para mergulhar ao leite.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCookies">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/vatapa.jpg" class="card-img-top" alt="Vatapá">
+                    <img src="images/mousse.jpg" class="card-img-top" alt="Mousse">
                     <div class="card-body">
-                        <h5 class="card-title">Vatapá</h5>
-                        <p class="card-text">Um delicioso prato típico da Bahia.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalVatapa">Ver Receita</button>
+                        <h5 class="card-title">Mousse de Maracujá</h5>
+                        <p class="card-text">Refrescante, leve e deliciosa.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMousse">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/acaraje.jpg" class="card-img-top" alt="Acarajé">
+                    <img src="images/pudim-de-chia.webp" class="card-img-top" alt="Pudim">
                     <div class="card-body">
-                        <h5 class="card-title">Acarajé</h5>
-                        <p class="card-text">Bolinho de feijão frito recheado com vatapá.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAcaraje">Ver Receita</button>
+                        <h5 class="card-title">Pudim de Chia com Leite de Coco</h5>
+                        <p class="card-text">Creme suave e textura incrível.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPudim">Ver Receita</button>
                     </div>
                 </div>
             </div>
@@ -80,23 +80,34 @@
     </div>
 
     <!-- Modais de Receitas -->
-    <div class="modal fade" id="modalFeijoada" tabindex="-1" aria-labelledby="modalFeijoadaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalCookiesLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalFeijoadaLabel">Feijoada</h5>
+                    <h5 class="modal-title" id="modalCookiesLabel">Cookies com Gotas de Chocolate</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>1 kg de feijão preto</li>
-                        <li>500 g de carne seca</li>
-                        <li>300 g de linguiça calabresa</li>
-                        <li>Folhas de louro, alho, cebola e sal a gosto</li>
+                        <li>1 xícara de manteiga (em temperatura ambiente)</li>
+                        <li>1 xícara de açúcar mascavo</li>
+                        <li>1/2 xícara de açúcar branco</li>
+                        <li>2 ovos</li>
+                        <li>2 colheres de chá de essência de baunilha</li>
+                        <li>2 1/2 xícaras de farinha de trigo</li>
+                        <li>1 colher de chá de bicarbonato de sódio</li>
+                        <li>1/2 colher de chá de sal</li>
+                        <li>1 1/2 xícaras de chocolate meio amargo picado</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Cozinhe o feijão preto com as folhas de louro. Separadamente, dessalgue a carne seca e frite a linguiça. Misture tudo em uma panela grande com temperos e deixe apurar.</p>
+                    <p>Preaqueça o forno a 180°C e forre uma assadeira com papel manteiga.
+                        Bata a manteiga com os açúcares até formar um creme. Adicione os ovos e a essência de baunilha, e bata até misturar bem.
+                        Em outra tigela, misture a farinha, o bicarbonato de sódio e o sal. Adicione essa mistura à massa, mexendo até incorporar.
+                        Adicione o chocolate picado e as nozes e misture bem.
+                        Modele bolinhas com a massa e coloque na assadeira, deixando espaço entre elas.
+                        Asse por cerca de 10-12 minutos ou até que as bordas dos cookies estejam douradas.
+                        Deixe esfriar antes de servir.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -105,23 +116,27 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalVatapa" tabindex="-1" aria-labelledby="modalVatapaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalMousse" tabindex="-1" aria-labelledby="modalMousseLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalVatapaLabel">Vatapá</h5>
+                    <h5 class="modal-title" id="modalMousseLabel">Mousse de Maracujá</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de camarão seco</li>
-                        <li>2 xícaras de farinha de trigo</li>
-                        <li>1 vidro de leite de coco</li>
-                        <li>Azeite de dendê e temperos a gosto</li>
+                        <li>1 lata de leite condensado</li>
+                        <li>1 lata de creme de leite</li>
+                        <li>1/2 xícara de suco de maracujá concentrado</li>
+                        <li>1 pacote de gelatina sem sabor</li>
+                        <li>1/2 xícara de água quente</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Bata os camarões no liquidificador e reserve. Em uma panela, cozinhe a farinha de trigo com o leite de coco, misturando bem. Adicione os camarões triturados e o azeite de dendê.</p>
+                    <p>Dissolva a gelatina na água quente e reserve.
+                        Bata no liquidificador o leite condensado, o creme de leite e o suco de maracujá.
+                        Adicione a gelatina dissolvida e bata por mais alguns segundos.
+                        Coloque em taças e leve à geladeira por 4 horas ou até firmar.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -130,23 +145,26 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalAcaraje" tabindex="-1" aria-labelledby="modalAcarajeLabel" aria-hidden="true">
+    <div class="modal fade" id="modalPudim" tabindex="-1" aria-labelledby="modalPudimLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalAcarajeLabel">Acarajé</h5>
+                    <h5 class="modal-title" id="modalPudimLabel">Pudim de Chia com Leite de Coco</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de feijão-fradinho</li>
-                        <li>2 cebolas grandes</li>
-                        <li>1 colher de sopa de sal</li>
-                        <li>Azeite de dendê para fritar</li>
+                        <li>3 colheres de sopa de semente de chia</li>
+                        <li>200ml de leite de coco</li>
+                        <li>3 colheres de sopa de açúcar</li>
+                        <li>1/2 colher de chá de essência de baunilha</li>
+                        <li>Frutas frescas para decorar (opcional)</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Deixe o feijão de molho por 12 horas e remova a casca. Bata no processador com as cebolas e o sal. Modele bolinhos e frite no azeite de dendê.</p>
+                    <p>Misture as sementes de chia com o leite de coco, o açúcar e a essência de baunilha.
+                        Deixe na geladeira por pelo menos 4 horas ou até que a chia tenha absorvido o líquido e se transformado em um pudim cremoso.
+                        Decore com frutas frescas antes de servir.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>

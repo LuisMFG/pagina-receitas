@@ -40,7 +40,7 @@
     <!-- Título da Categoria -->
     <header class="py-3 text-center bg-light">
         <h1>Receitas Fitness</h1>
-        <p>Explore as melhores receitas tradicionais do Brasil!</p>
+        <p>Explore as melhores receitas para sua dieta.</p>
     </header>
 
     <!-- Cards de Receitas -->
@@ -48,31 +48,31 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/feijoada.jpg" class="card-img-top" alt="Feijoada">
+                    <img src="images/bolinho-batata-doce.jpg" class="card-img-top" alt="Bolinho">
                     <div class="card-body">
-                        <h5 class="card-title">Feijoada</h5>
-                        <p class="card-text">Um dos pratos mais tradicionais do Brasil.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFeijoada">Ver Receita</button>
+                        <h5 class="card-title">Bolinho de Batata Doce e Frango</h5>
+                        <p class="card-text">Para acompanhar você em qualquer hora.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBolinho">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/vatapa.jpg" class="card-img-top" alt="Vatapá">
+                    <img src="images/panqueca-fit.jpg" class="card-img-top" alt="Panqueca">
                     <div class="card-body">
-                        <h5 class="card-title">Vatapá</h5>
-                        <p class="card-text">Um delicioso prato típico da Bahia.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalVatapa">Ver Receita</button>
+                        <h5 class="card-title">Panqueca de Banana e Aveia</h5>
+                        <p class="card-text">Um lanche perfeito para o seu dia.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPanqueca">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/acaraje.jpg" class="card-img-top" alt="Acarajé">
+                    <img src="images/sopa-abobora.jpg" class="card-img-top" alt="Sopa">
                     <div class="card-body">
-                        <h5 class="card-title">Acarajé</h5>
-                        <p class="card-text">Bolinho de feijão frito recheado com vatapá.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAcaraje">Ver Receita</button>
+                        <h5 class="card-title">Sopa de Abóbora com Gengibre</h5>
+                        <p class="card-text">Sabor e bem estar para suas noites.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSopa">Ver Receita</button>
                     </div>
                 </div>
             </div>
@@ -80,23 +80,25 @@
     </div>
 
     <!-- Modais de Receitas -->
-    <div class="modal fade" id="modalFeijoada" tabindex="-1" aria-labelledby="modalFeijoadaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalBolinho" tabindex="-1" aria-labelledby="modalBolinhoLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalFeijoadaLabel">Feijoada</h5>
+                    <h5 class="modal-title" id="modalBolinhoLabel">Bolinho de Batata Doce e Frango</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>1 kg de feijão preto</li>
-                        <li>500 g de carne seca</li>
-                        <li>300 g de linguiça calabresa</li>
-                        <li>Folhas de louro, alho, cebola e sal a gosto</li>
+                        <li>1 batata doce média cozida e amassada</li>
+                        <li>1 xícara de frango desfiado</li>
+                        <li>1 colher de sopa de azeite</li>
+                        <li>Sal, pimenta e páprica a gosto</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Cozinhe o feijão preto com as folhas de louro. Separadamente, dessalgue a carne seca e frite a linguiça. Misture tudo em uma panela grande com temperos e deixe apurar.</p>
+                    <p>Misture a batata doce, o frango e os temperos em uma tigela até formar uma massa homogênea.
+                        Modele em formato de bolinhos.
+                        Coloque em uma assadeira untada ou com papel manteiga e asse em forno pré-aquecido a 200°C por 20-25 minutos, virando na metade do tempo.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -105,23 +107,27 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalVatapa" tabindex="-1" aria-labelledby="modalVatapaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalPanqueca" tabindex="-1" aria-labelledby="modalPanquecaLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalVatapaLabel">Vatapá</h5>
+                    <h5 class="modal-title" id="modalPanquecaLabel">Panqueca de Banana e Aveia</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de camarão seco</li>
-                        <li>2 xícaras de farinha de trigo</li>
-                        <li>1 vidro de leite de coco</li>
-                        <li>Azeite de dendê e temperos a gosto</li>
+                        <li>1 banana madura</li>
+                        <li>2 ovos</li>
+                        <li>3 colheres de sopa de aveia em flocos</li>
+                        <li>1 colher de chá de canela (opcional)</li>
+                        <li>1 fio de óleo de coco</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Bata os camarões no liquidificador e reserve. Em uma panela, cozinhe a farinha de trigo com o leite de coco, misturando bem. Adicione os camarões triturados e o azeite de dendê.</p>
+                    <p>Amasse a banana e misture com os ovos, a aveia e a canela.
+                        Aqueça o óleo de coco em uma frigideira antiaderente.
+                        Despeje pequenas porções da massa na frigideira e cozinhe em fogo baixo até dourar dos dois lados.
+                        Sirva com mel ou frutas frescas, se desejar.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -130,23 +136,30 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalAcaraje" tabindex="-1" aria-labelledby="modalAcarajeLabel" aria-hidden="true">
+    <div class="modal fade" id="modalSopa" tabindex="-1" aria-labelledby="modalSopaLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalAcarajeLabel">Acarajé</h5>
+                    <h5 class="modal-title" id="modalSopaLabel">Sopa de Abóbora com Gengibre</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de feijão-fradinho</li>
-                        <li>2 cebolas grandes</li>
-                        <li>1 colher de sopa de sal</li>
-                        <li>Azeite de dendê para fritar</li>
+                        <li>500g de abóbora picada</li>
+                        <li>1 pedaço pequeno de gengibre ralado</li>
+                        <li>1 cebola picada</li>
+                        <li>2 dentes de alho picados</li>
+                        <li>1 colher de sopa de azeite</li>
+                        <li>750ml de água ou caldo de legumes</li>
+                        <li>Sal e pimenta a gosto</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Deixe o feijão de molho por 12 horas e remova a casca. Bata no processador com as cebolas e o sal. Modele bolinhos e frite no azeite de dendê.</p>
+                    <p>Refogue a cebola e o alho no azeite até ficarem dourados.
+                        Adicione a abóbora e o gengibre, refogando por mais 2 minutos.
+                        Cubra com a água ou caldo de legumes e cozinhe até a abóbora ficar macia.
+                        Bata tudo no liquidificador até obter um creme homogêneo.
+                        Ajuste o sal e a pimenta e sirva quente.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>

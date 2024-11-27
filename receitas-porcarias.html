@@ -40,7 +40,7 @@
     <!-- Título da Categoria -->
     <header class="py-3 text-center bg-light">
         <h1>Receitas de Porcarias</h1>
-        <p>Explore as melhores receitas tradicionais do Brasil!</p>
+        <p>Explore e faça os lanchinhos mais gostosos do momento.</p>
     </header>
 
     <!-- Cards de Receitas -->
@@ -48,31 +48,31 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/feijoada.jpg" class="card-img-top" alt="Feijoada">
+                    <img src="images/batata-recheada.jpg" class="card-img-top" alt="Batata">
                     <div class="card-body">
-                        <h5 class="card-title">Feijoada</h5>
-                        <p class="card-text">Um dos pratos mais tradicionais do Brasil.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFeijoada">Ver Receita</button>
+                        <h5 class="card-title">Batata Recheada de Micro-ondas</h5>
+                        <p class="card-text">Um recheio delicioso para o dia.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBatata">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/vatapa.jpg" class="card-img-top" alt="Vatapá">
+                    <img src="images/Bolinho-de-carne-moida.webp" class="card-img-top" alt="Bolinho-de-carne">
                     <div class="card-body">
-                        <h5 class="card-title">Vatapá</h5>
-                        <p class="card-text">Um delicioso prato típico da Bahia.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalVatapa">Ver Receita</button>
+                        <h5 class="card-title">Bolinho de Carne com Queijo</h5>
+                        <p class="card-text">Explosão de sabor que conquista.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBolinho-de-carne">Ver Receita</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/acaraje.jpg" class="card-img-top" alt="Acarajé">
+                    <img src="images/mini-sanduiche.webp" class="card-img-top" alt="Hambúrguer">
                     <div class="card-body">
-                        <h5 class="card-title">Acarajé</h5>
-                        <p class="card-text">Bolinho de feijão frito recheado com vatapá.</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAcaraje">Ver Receita</button>
+                        <h5 class="card-title">Mini Hambúrguer Artesanal</h5>
+                        <p class="card-text">Pequeno no tamanho, gigante no sabor.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalHambúrguer">Ver Receita</button>
                     </div>
                 </div>
             </div>
@@ -80,23 +80,27 @@
     </div>
 
     <!-- Modais de Receitas -->
-    <div class="modal fade" id="modalFeijoada" tabindex="-1" aria-labelledby="modalFeijoadaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalBatata" tabindex="-1" aria-labelledby="modalBatataLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalFeijoadaLabel">Feijoada</h5>
+                    <h5 class="modal-title" id="modalBatataLabel">Batata Recheada de Micro-ondas</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>1 kg de feijão preto</li>
-                        <li>500 g de carne seca</li>
-                        <li>300 g de linguiça calabresa</li>
-                        <li>Folhas de louro, alho, cebola e sal a gosto</li>
+                        <li>2 batatas grandes</li>
+                        <li>100g de requeijão ou cream cheese</li>
+                        <li>100g de frango desfiado, carne moída ou bacon picado</li>
+                        <li>Queijo e mussarela para gratinar</li>
+                        <li>Sal e pimenta a gosto</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Cozinhe o feijão preto com as folhas de louro. Separadamente, dessalgue a carne seca e frite a linguiça. Misture tudo em uma panela grande com temperos e deixe apurar.</p>
+                    <p>Lave bem as batatas e faça pequenos furos com um garfo.
+                        Leve ao micro-ondas por 6-8 minutos, virando na metade do tempo, até ficarem macias.
+                        Corte ao meio, retire um pouco do miolo e misture com o recheio escolhido e o requeijão.
+                        Recheie as batatas, cubra com queijo e leve ao micro-ondas para gratinar.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -105,23 +109,27 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalVatapa" tabindex="-1" aria-labelledby="modalVatapaLabel" aria-hidden="true">
+    <div class="modal fade" id="modalBolinho-de-carne" tabindex="-1" aria-labelledby="modalBolinho-de-carneLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalVatapaLabel">Vatapá</h5>
+                    <h5 class="modal-title" id="modalBolinho-de-carneLabel">Bolinho de Carne com Queijo</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de camarão seco</li>
-                        <li>2 xícaras de farinha de trigo</li>
-                        <li>1 vidro de leite de coco</li>
-                        <li>Azeite de dendê e temperos a gosto</li>
+                        <li>500g de carne moída</li>
+                        <li>1 ovo</li>
+                        <li>2 colheres de sopa de farinha de aveia (ou farinha de rosca)</li>
+                        <li>100g de queijo mussarela cortado em cubos</li>
+                        <li>Sal, pimenta e cheiro-verde a gosto</li>
+                        <li>Óleo para fritar ou assar</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Bata os camarões no liquidificador e reserve. Em uma panela, cozinhe a farinha de trigo com o leite de coco, misturando bem. Adicione os camarões triturados e o azeite de dendê.</p>
+                    <p>Misture a carne moída com o ovo, a farinha e os temperos até formar uma massa homogênea.
+                        Pegue porções da massa, recheie com um cubo de queijo e molde em formato de bolinho.
+                        Frite em óleo quente até dourar ou asse em forno pré-aquecido a 200°C por 25 minutos.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
@@ -130,23 +138,27 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalAcaraje" tabindex="-1" aria-labelledby="modalAcarajeLabel" aria-hidden="true">
+    <div class="modal fade" id="modalHambúrguer" tabindex="-1" aria-labelledby="modalHambúrguerLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalAcarajeLabel">Acarajé</h5>
+                    <h5 class="modal-title" id="modalHambúrguerLabel">Mini Hambúrguer Artesanal</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h6>Ingredientes:</h6>
                     <ul>
-                        <li>500 g de feijão-fradinho</li>
-                        <li>2 cebolas grandes</li>
-                        <li>1 colher de sopa de sal</li>
-                        <li>Azeite de dendê para fritar</li>
+                        <li>Mini pães de hambúrguer</li>
+                        <li>300g de carne moída (patinho ou acém)</li>
+                        <li>Sal e pimenta a gosto</li>
+                        <li>Queijo cheddar fatiado</li>
+                        <li>Folhas de alface e rodelas de tomate</li>
+                        <li>Maionese, ketchup de mostarda (opcional)</li>
                     </ul>
                     <h6>Modo de Preparo:</h6>
-                    <p>Deixe o feijão de molho por 12 horas e remova a casca. Bata no processador com as cebolas e o sal. Modele bolinhos e frite no azeite de dendê.</p>
+                    <p>Tempere a carne com sal e pimenta, molde em mini hambúrgueres.
+                        Grelhe ou frite os hambúrgueres até o ponto desejado.
+                        Monte com os ingredientes no pão e finalize com os molhos.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
